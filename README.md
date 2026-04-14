@@ -62,14 +62,25 @@ Hello World!
 
 ---
 
-## 🚀 Future Enhancements
+## ⚙️ CI/CD Pipeline (Jenkins)
 
-* Dockerize the application
-* Implement Jenkins CI/CD pipeline
-* Deploy using Kubernetes
+- Integrated GitHub repository with Jenkins
+- Automated build using Maven
+- Docker image creation
+- Container execution using Docker
+
+### 📸 Jenkins Pipeline
+
+![Pipeline](screenshots/jenkins-pipeline-success.png)
+
+### 📸 Build Details
+
+![Build](screenshots/jenkins-build-success.png)
 
 ---
 
-## 👩‍💻 Author
+## 🐳 Docker Setup
 
-Mahalakshmi
+- Created Dockerfile for Java application
+- Built Docker image using:
+
