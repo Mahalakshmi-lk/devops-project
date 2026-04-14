@@ -84,3 +84,64 @@ Hello World!
 - Created Dockerfile for Java application
 - Built Docker image using:
 
+---
+
+## ☸️ Kubernetes Deployment
+
+This project is deployed on Kubernetes using Minikube.
+
+---
+
+### 📦 Deployment
+
+The application is deployed using a Kubernetes Deployment configuration.
+
+Command used:
+kubectl apply -f deployment.yaml
+
+---
+
+### 🌐 Service Exposure
+
+The application is exposed using a NodePort service.
+
+Command used:
+kubectl apply -f service.yaml
+
+
+To access the application:
+minikube service my-app-service
+
+---
+
+### 📊 Kubernetes Status
+
+Check cluster and resources:
+kubectl get nodes
+kubectl get pods
+kubectl get services
+
+---
+
+## 📸 Kubernetes Screenshots
+
+### 🔹 Nodes
+
+![K8s Nodes](screenshots/k8s-node.png)
+
+### 🔹 Pods Running
+
+![K8s Pods](screenshots/k8s-pods.png)
+
+### 🔹 Service Running
+
+![K8s Service](screenshots/k8s-service-running.png)
+
+---
+
+## 🎯 Result
+
+The application is successfully deployed and running on Kubernetes using Minikube.
+
+---
+
